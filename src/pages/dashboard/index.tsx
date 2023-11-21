@@ -1,3 +1,4 @@
+import EChartsComponent from "@/components/BarChart";
 import Layout from "@/dashboard-components/layout";
 import PieChartBreakdown from "@/dashboard-components/piechart_component";
 import DashboardTitle from "@/dashboard-components/title";
@@ -16,7 +17,9 @@ const Dashboard = () => {
 
           <div className="w-full px-4 md:px-0 mt-8 grid grid-cols-1 md:grid-cols-5 gap-4">
             <div className="md:col-span-3">
-             dd
+            <div className="bg-white p-6 h-full rounded-xl">
+                <EChartsComponent/>
+            </div>
              
             </div>
             <div className="md:col-span-2 h-full">

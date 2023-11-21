@@ -22,7 +22,7 @@ const PieChartBreakdown = () => {
       )}
       <div>
         <div className="flex items-center justify-between">
-          <h4 className="text-lg font-medium">Funding allocation breakdown</h4>
+          <h4 className="text-lg font-medium">Breakdown</h4>
           <div className=" bg-inherit">
             <div
               onMouseEnter={() => setTooltip(true)}
@@ -34,8 +34,7 @@ const PieChartBreakdown = () => {
           </div>
         </div>
         <h6 className=" text-gray-900 mt-2">
-          A transparent view of how your contributions are distributed within
-          this case.
+          A transparent breakdown in piechart form
         </h6>
       </div>
 
